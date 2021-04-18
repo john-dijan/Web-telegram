@@ -219,6 +219,11 @@ i.fa-search:hover, i.fa-ellipsis-v:hover{
     width: 48px;
 }
 
+.dialog > .img{
+    height: 48px;
+    width: 48px;
+}
+
 .dialog{
     font: 13px tahoma, sans-serif, arial, helvetica;
     margin: 4px 0 0 22px;
