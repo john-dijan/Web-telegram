@@ -164,6 +164,26 @@ i.fa-search:hover, i.fa-ellipsis-v:hover{
     overflow-y: auto;
 }
 
+.left::-webkit-scrollbar-track {
+	background-color: transparent;	
+}
+
+.left::-webkit-scrollbar {
+	width: 10px;
+	background: #f6f5fd;
+    /*background: #f6f5fd url(images/scrollbar_bg.png) repeat-y left; comment coz no image*/
+    border-left: 1px solid #b4b4d6;
+    border-right: 1px solid #b4b4d6;
+}
+
+.left::-webkit-scrollbar-thumb {	
+	background:white;
+	border: 1px solid black;
+	border-right-color: black;
+	box-shadow:inset 1px 1px #fff;
+}
+
+
 .right{
     flex: 69.5%;
     background: white;
