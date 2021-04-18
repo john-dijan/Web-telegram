@@ -177,7 +177,7 @@ i.fa-search:hover, i.fa-ellipsis-v:hover{
 }
 
 .left::-webkit-scrollbar-thumb {	
-	background:white;
+	background: #808080;
 	border: 1px solid black;
 	border-right-color: black;
 	box-shadow:inset 1px 1px #fff;
