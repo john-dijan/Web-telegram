@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon.ico">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="background">
+        <div class="close" onclick="jap()"><i class="fa fa-times"></i></div>
+        <div class="contact-info">
+            <div class="blue">
+                <div class="con-info">
+                    <b>Contact info</b>
+                    <div class="edit">
+                        <span>Edit</span>
+                        <span>Close</span>
+                    </div>
+                </div>
+
+                <div class="data">
+                    <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfiE2dIRY98rHw8M3IyG9iAiTEx8S3vQ8ErQ&usqp=CAUg" alt=""></div>
+                    <div class="data-text">
+                        <b>Настя</b>
+                        <p>last seen 40 minutes ago </p>
+                    </div>
+                </div>
+
+                <div class="round-message"><i class="fa fa-envelope" title="Send message" onclick="jap()"></i></div>
+            </div>
+            <div class="phone-status">
+                <div class="phone-number">
+                    <i class="fa fa-phone"></i>
+                    <div class="phone-text">
+                        <p>+79686462094</p>
+                        <span>Phone</span>
+                    </div>
+                </div>
+
+                <div class="status">
+                    <div class="phone-text">
+                        <p>Если ты первый, ты первый! 😎</p>
+                        <span>About</span>
+                    </div>
+                </div>
+
+                <div class="phone-number" style="margin-top: 20px;">
+                    <i class="fa fa-bell"></i>
+                    <div class="phone-text" style="margin-top: 5px; padding: 0px 0 20px; border-bottom: 1px solid #ebebeb; width: 87%;">
+                        <p>Notifications</p>
+                    </div>
+                </div>
+
+                <div class="phone-number" style="margin-top: 25px;">
+                    <i class="fa fa-bars"></i>
+                    <div class="phone-text" style="margin-top: 4px;">
+                        <p>Share contact</p>
+                        <p style="margin-top: 20px;">More...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="telegram">
+        <div class="header">
+            <div class="tg-menu" onclick="och()" ondblclick="yop()">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+                <p>Telegram</p>
+            </div>
+                <div class="tg-last">
+                    <div class="author-chat" onclick="o4()">
+                        <b>Настя</b>
+                        <span>last seen 40 minutes ago</span>
+                    </div>
+                </div>
+
+                <div class="tg-sec">
+                    <i class="fa fa-search"></i>
+                    <i class="fa fa-ellipsis-v" onclick="och1()" ondblclick="yop1()"></i>
+                    <div class="drop-second">
+                        <div class="drop-sec">Select messages</div>
+                        <div class="bot"></div>
+                        <div class="drop-sec">Photos</div>
+                        <div class="drop-sec">Videos</div>
+                        <div class="drop-sec">Files</div>
+                        <div class="drop-sec">Audio</div>
+                        <div class="drop-sec">Shared links</div>
+                        <div class="drop-sec">Voice messages</div>
+                        <div class="drop-sec">Video messages</div>
+                    </div>
+                </div>
+        </div>
+        <div class="drop-menu">
+            
+            <div class="drop-list">
+                <i class="fa fa-users"></i>
+                <span>New group</span>
+            </div>
+
+            <div class="drop-list">
+                <i class="fa fa-user-circle"></i>
+                <span>Contacts</span>
+            </div>
+
+            <div class="drop-list">
+                <i class="fa fa-cog"></i>
+                <span>Settings</span>
+            </div>
+
+            <div class="drop-list">
+                <i class="fa fa-question-circle"></i>
+                <span>Telegram FAQ</span>
+            </div>
+
+            <div class="drop-list">
+                <i class="fa fa-telegram"></i>
+                <span>About</span>
+            </div>
+        </div>
+
+        <div class="main">
+            
+            <div class="left">
+                
+                <div class="search-panel">
+                    <input type="search" placeholder="Search...">
+                </div>
+
+                <div class="chat-list">
+                    <div class="img"><img src="https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png" alt=""></div>
+                    <div class="dialog">
+                        <div class="name">
+                            <b>Sardor</b>
+                            <span>2:29 PM</span>
+                        </div>
+                        <div class="name">
+                            <p>Video</p>
+                            <div class="green">23</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-list">
+                    <div class="img"><img src="https://www.pngkey.com/png/full/385-3859599_render-anime-girl-6-by-takitorikinomoto-d9ft9g4-garota.png" alt=""></div>
+                    <div class="dialog">
+                        <div class="name">
+                            <b>Madi</b>
+                            <span>1:03 PM</span>
+                        </div>
+                        <div class="name">
+                            <p class="message">Билмадим 🤷‍</p>
+                            <div class="green">1</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-list">
+                    <div class="img"><img src="https://i.pinimg.com/564x/05/75/a2/0575a2d2251ab22ddb3f1f41bf8a0858.jpg" alt=""></div>
+                    <div class="dialog">
+                        <div class="name">
+                            <b>Sherzod</b>
+                            <span>1:03 PM</span>
+                        </div>
+                        <div class="name">
+                            <p>Voice message</p>
+                            <div class="green">4</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-list">
+                    <div class="img"><img src="https://i.pinimg.com/originals/b9/cf/6d/b9cf6d70221ad3225d0068698cab46b5.jpg" alt=""></div>
+                    <div class="dialog">
+                        <div class="name">
+                            <b>Tursunboy</b>
+                            <span>12:30 PM</span>
+                        </div>
+                        <div class="name">
+                            <p>Video</p>
+                            <div class="green">2</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-list">
+                    <div class="img"><img src="https://i.pinimg.com/originals/e3/1a/d6/e31ad639e86e0dc417ec4dcec8c7960d.jpg" alt=""></div>
+                    <div class="dialog">
+                        <div class="name">
+                            <b>Феруза</b>
+                            <span>11:15 AM</span>
+                        </div>
+                        <div class="name">
+                            <p class="message">Рамазон муборак! 🕋</p>
+                            <div class="green">1</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-list" onclick="bek()">
+                    <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfiE2dIRY98rHw8M3IyG9iAiTEx8S3vQ8ErQ&usqp=CAUg" alt=""></div>
+                    <div class="dialog" id="dialog">
+                        <div class="name">
+                            <b>Настя</b>
+                            <span id="chas">11:10 АМ</span>
+                        </div>
+                        <div class="name">
+                            <p class="message" id="msg">Не знаю. Как ты узнал это?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-list">
+                    <div class="img"><img src="data:image/jpeg;base64,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" alt=""></div>
+                    <div class="dialog">
+                        <div class="name">
+                            <b>Sanjar jo'ra</b>
+                            <span>9:57 AM</span>
+                        </div>
+                        <div class="name">
+                            <p>Video</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-list">
+                    <div class="img"><img src="img/Fave.png" alt=""></div>
+                    <div class="dialog">
+                        <div class="name">
+                            <b>Saved Messages</b>
+                            <span>9:40 AM</span>
+                        </div>
+                        <div class="name">
+                            <p class="message">Video</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-list">
+                    <div class="img"><img src="data:image/jpeg;base64,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" alt=""></div>
+                    <div class="dialog">
+                        <div class="name">
+                            <b>Saida</b>
+                            <span>14/04/21</span>
+                        </div>
+                        <div class="name">
+                            <p class="message">Kecha ovoldim rahmat katta!</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="right">
+                <div class="first">Please select a chat to start messaging</div>
+                <div class="dd">
+                    <div class="message-list">
+                        <p class="date">Thursday, April 15, 2021</p>
+                        <div class="message-text">
+                            <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfiE2dIRY98rHw8M3IyG9iAiTEx8S3vQ8ErQ&usqp=CAUg" alt=""></div>
+                            <div class="text-message">
+                                <i class="fa fa-check-circle"></i>
+                                <div class="tname">
+                                    <b>Настя</b>
+                                    <span>10:50 AM</span>
+                                </div>
+                                <p>Это невероятно )))</p>
+                            </div>
+                        </div>
+
+                        <div class="message-text">
+                            <div class="img me">J</div>
+                            <div class="text-message">
+                                <i class="fa fa-check-circle"></i>
+                                <div class="tname">
+                                    <b>John</b>
+                                    <span>10:51 AM</span>
+                                </div>
+                                <p>Нууу, это точно 😅</p>
+                            </div>
+                        </div>
+
+                        <div class="message-text">
+                            <div class="img me">J</div>
+                            <div class="text-message">
+                                <i class="fa fa-check-circle"></i>
+                                <div class="tname">
+                                    <b>John</b>
+                                    <span>10:51 AM</span>
+                                </div>
+                                <p>А где Саня? 🤔</p>
+                            </div>
+                        </div>
+
+                        <div class="message-text">
+                            <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfiE2dIRY98rHw8M3IyG9iAiTEx8S3vQ8ErQ&usqp=CAUg" alt=""></div>
+                            <div class="text-message">
+                                <i class="fa fa-check-circle"></i>
+                                <div class="tname">
+                                    <b>Настя</b>
+                                    <span>10:53 AM</span>
+                                </div>
+                                <p>В универе</p>
+                            </div>
+                        </div>
+
+                        <div class="message-text">
+                            <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfiE2dIRY98rHw8M3IyG9iAiTEx8S3vQ8ErQ&usqp=CAUg" alt=""></div>
+                            <div class="text-message">
+                                <i class="fa fa-check-circle"></i>
+                                <div class="tname">
+                                    <b>Настя</b>
+                                    <span>10:54 AM</span>
+                                </div>
+                                <p>Где ты сейчас?</p>
+                            </div>
+                        </div>
+
+                        <div class="message-text">
+                            <div class="img me">J</div>
+                            <div class="text-message">
+                                <i class="fa fa-check-circle"></i>
+                                <div class="tname">
+                                    <b>John</b>
+                                    <span>10:54 AM</span>
+                                </div>
+                                <p>В офисе</p>
+                            </div>
+                        </div>
+
+                        <div class="message-text">
+                            <div class="img me">J</div>
+                            <div class="text-message">
+                                <i class="fa fa-check-circle"></i>
+                                <div class="tname">
+                                    <b>John</b>
+                                    <span>10:54 AM</span>
+                                </div>
+                                <p>А ты?</p>
+                            </div>
+                        </div>
+
+                        <div class="message-text">
+                            <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfiE2dIRY98rHw8M3IyG9iAiTEx8S3vQ8ErQ&usqp=CAUg" alt=""></div>
+                            <div class="text-message">
+                                <i class="fa fa-check-circle"></i>
+                                <div class="tname">
+                                    <b>Настя</b>
+                                    <span>10:56 AM</span>
+                                </div>
+                                <p>В доме</p>
+                            </div>
+                        </div>
+
+                        <div class="message-text">
+                            <div class="img me">J</div>
+                            <div class="text-message">
+                                <i class="fa fa-check-circle"></i>
+                                <div class="tname">
+                                    <b>John</b>
+                                    <span>10:56 AM</span>
+                                </div>
+                                <p>Проверишь ли *500#. Он дает 500МБ или СМС/минуты</p>
+                            </div>
+                        </div>
+
+                        <div class="message-text">
+                            <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfiE2dIRY98rHw8M3IyG9iAiTEx8S3vQ8ErQ&usqp=CAUg" alt=""></div>
+                            <div class="text-message">
+                                <i class="fa fa-check-circle"></i>
+                                <div class="tname">
+                                    <b>Настя</b>
+                                    <span>11:10 AM</span>
+                                </div>
+                                <p>Не знаю. Как ты узнал это?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="type-message">
+                        <div class="textarea">
+                            <div class="img me">J</div>
+                            <textarea id="textarea" placeholder="Write a message"></textarea>
+                            <div class="img" style="margin-left: 13px; cursor: pointer;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfiE2dIRY98rHw8M3IyG9iAiTEx8S3vQ8ErQ&usqp=CAUg" alt="" onclick="o4()"></div>
+                        </div>
+                        <div class="send">
+                            <i class="fa fa-file" title="Send file"></i>
+                            <i class="fa fa-camera" title="Send media"></i>
+                            <i class="fa fa-microphone" title="Record a message"></i>
+                            <div class="emoji" title=":joy:">😂</div>
+                            <div class="emoji" title=":kissing_heart:">😘</div>
+                            <div class="emoji" title=":heart:">❤️</div>
+                            <div class="emoji" title=":heart_eyes:">😍</div>
+                            <div class="emoji" title=":blush:">😊</div>
+                            <div class="emoji" title=":grin:">😬</div>
+                            <div class="emoji" title=":+1:">👍</div>
+                            <p class="sent">SEND</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
