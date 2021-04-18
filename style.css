@@ -227,7 +227,7 @@ i.fa-search:hover, i.fa-ellipsis-v:hover{
 
 .name{
     display: flex;
-    width: 100%;
+    width: 88%;
     justify-content: space-between;
     margin-bottom: 8px;
 }
