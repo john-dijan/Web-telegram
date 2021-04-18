@@ -274,7 +274,7 @@ p.message{
 
 .message-list{
     width: 100%;
-    height: 400px;
+    height: 550px;
     margin-top: 10px;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -364,7 +364,7 @@ i.fa-check-circle{
 }
 
 .type-message{
-    margin: 90px 80px 0;
+    margin: 50px 80px 0;
     height: 114px;
 }
 
