@@ -443,7 +443,7 @@ p.sent{
 .background{
     position: absolute;
     background: rgba(0,0,0,0.7);
-    height: 660px;
+    height: 665px;
     width: 100%;
     display: none;
     place-items: center;
@@ -465,7 +465,7 @@ p.sent{
 
 .contact-info{
     width: 480px;
-    height: 480px;
+    height: 500px;
     background: white;
     margin-top: 30px;
 }
