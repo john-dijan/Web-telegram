@@ -60,7 +60,7 @@ body{
     width: 311.094px;
     display: none;
     height: 235px;
-    top: 6.5%;
+    top: 7.3%;
     z-index: 1;
     box-shadow: 0 0px 4px 1px #B5C3D0;
     background: white;
@@ -107,7 +107,6 @@ body{
 .author-chat span{
     color: #b9cfe3;
     margin-left: 5px;
-    font-size: 11px;
 }
 
 i.fa-search, i.fa-ellipsis-v{
@@ -129,7 +128,7 @@ i.fa-search:hover, i.fa-ellipsis-v:hover{
     position: absolute;
     right: 12%;
     z-index: 1;
-    top: 11%;
+    top: 7.3%;
     box-shadow: 0 1px 5px 2px #B5C3D0;
     font: 12px tahoma, sans-serif, arial, helvetica;
     color: #52719a;
@@ -222,7 +221,7 @@ i.fa-search:hover, i.fa-ellipsis-v:hover{
 
 .dialog{
     font: 13px tahoma, sans-serif, arial, helvetica;
-    margin: 4px 0 0 23px;
+    margin: 4px 0 0 18px;
 }
 
 .name{
